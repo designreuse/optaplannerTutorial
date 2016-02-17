@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solver>
+<!-- Definiendo los modelos -->
    <solutionClass>cl.citymovil.route_pro.solver.domain.VehicleRoutingSolution</solutionClass>
    <entityClass>cl.citymovil.route_pro.solver.domain.Standstill</entityClass>
    <entityClass>cl.citymovil.route_pro.solver.domain.Customer</entityClass>
