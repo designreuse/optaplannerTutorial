@@ -2,8 +2,8 @@
 <solver>
 <!-- Definiendo los modelos -->
    <solutionClass>cl.citymovil.route_pro.solver.domain.VehicleRoutingSolution</solutionClass>
-   <entityClass>cl.citymovil.route_pro.solver.domain.Standstill</entityClass>
-   <entityClass>cl.citymovil.route_pro.solver.domain.Customer</entityClass>
+   <!--  <entityClass>cl.citymovil.optaplanner.Standstill</entityClass>-->
+   <entityClass>cl.citymovil.optaplanner.domain.Customer</entityClass>
  
   <scoreDirectorFactory>
     <scoreDefinitionType>HARD_SOFT</scoreDefinitionType>
